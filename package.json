@@ -1,0 +1,24 @@
+{
+    "name" : "Express_w_OpenShift",
+    "version": "0.0.1",
+    "description": "Test express with OpenShift",
+    "keywords": ["OpenShift", "Node.js", "Express.js"],
+    "author": {
+        "name": "fbid",
+        "email": "",
+        "url": ""
+    },
+
+    "engines": {
+        "node": ">= 0.6.0",
+        "npm": ">= 1.0.0"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies" : {
+        "express": "2.11.3"    
+    }
+    
+    "main": "app.js"
+}
