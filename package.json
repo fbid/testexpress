@@ -17,8 +17,9 @@
         "start": "node app.js"
     },
     "dependencies" : {
-        "express": "2.11.3"    
-    }
+        "express": "4.13.3",
+        "ejs": "2.3.4"
+    },
     
     "main": "app.js"
 }
