@@ -9,10 +9,14 @@ app.engine('.html', require('ejs').renderFile);
 
 // logica di gestione delle richieste
 app.get('/',function(req,res){
-    res.render('index.html')
+    res.render('index.html');
+    console.log('GET index.html request');
 });
 app.get('/about',function(req,res){
     res.render('about.html');
+    console.log('GET about.html request');
 });
 
-var server = app.listen(port, address); 
+var server = app.listen(port, address, function(){
+    console.log('Server listening at port 8080...')
+}); 
